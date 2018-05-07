@@ -5,6 +5,6 @@ It is being published over at https://www.altmann.it
 I use it for:
 - My "About me"
 - Portfolio/Skills
-- embed the blog.altmann.it from Medium.com
+- Link to Medium, Keybase, Twitter
 - Projects (SSB)
-??? Maybe tryout fully the medium publication
+- Check out the vowe.net Design and principles for ease of read
