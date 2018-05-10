@@ -23,16 +23,16 @@ author:
 defaults:
   -
     scope:
-      path: ""
+      path: "static/images"
     values:
-      image: "static/images/og.jpg"
+      image: "true"
 
 # ----------------------------------------------------------------------------
 # Customize Options: Optional
 #
 # See: https://material.io/guidelines/style/color.html
 # Use color-name-value, like pink-200 or deep-purple-100
-brand_color: "amber-400"
+brand_color: "grey-400"
 
 # How article URLs are structured.
 # See: https://jekyllrb.com/docs/permalinks/
