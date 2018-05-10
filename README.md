@@ -1,10 +1,10 @@
-# markaltmann.github.io
-This is the repo of my website.
-It is being published over at https://www.altmann.it
+![](https://chibicode.github.io/duo/static/images/og.jpg)
 
-I use it for:
-- My "About me"
-- Portfolio/Skills
-- Link to Medium, Keybase, Twitter
-- Projects (SSB)
-- Check out the vowe.net Design and principles for ease of read
+About me
+
+Mark
+
+Projects:
+
+Skills:
+
