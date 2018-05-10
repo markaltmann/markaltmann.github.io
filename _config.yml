@@ -1,42 +1,70 @@
-# Welcome to Jekyll!
+# ----------------------------------------------------------------------------
+# Customize Options: Must Change
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# Title:
+title: markaltmann
+
+# Where the page will be deployed.
+# TODO: Probably try out mark.altmann.it instead www
+url: "https://www.altmann.it"
+
+# If you're deployging to a subdirectory (https://foo.com/bar/)
+# Then write "/bar/". Otherwise, remove this line.
+baseurl: ""
+
+# Twitter IDs
+twitter:
+  username: "markaltmann"
+author:
+  twitter: "markaltmann"
+
+# Set default og:image
+# From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "static/images/og.jpg"
+
+# ----------------------------------------------------------------------------
+# Customize Options: Optional
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# See: https://material.io/guidelines/style/color.html
+# Use color-name-value, like pink-200 or deep-purple-100
+brand_color: "amber-400"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Altmann.IT
-email: mark@altmann.it
-description: >- # this means to ignore newlines until "baseurl:"
-  This is the personal website of Mark Altmann. You can find info/links of my projects
-  and my regular blog entries here.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.altmann.it" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: markaltmann
-github_username:  markaltmann
+# How article URLs are structured.
+# See: https://jekyllrb.com/docs/permalinks/
+permalink: posts/:title/
 
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-minimal
+# "UA-NNNNNNNN-N"
+google_analytics: ""
+
+# Language. For example, if you write in Japanese, use "ja"
+lang: "en"
+
+# How many posts are visible on the home page without clicking "View More"
+num_posts_visible_initially: 5
+
+# Date format: See http://strftime.net/
+date_format: "%b %-d, %Y"
+# ----------------------------------------------------------------------------
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - mix-manifest.json
+  - webpack.mix.js
+  - yarn.lock
+  - package.json
+  - hot
+  - LICENSE.txt
+
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-readme-index
