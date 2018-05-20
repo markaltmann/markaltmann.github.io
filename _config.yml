@@ -5,18 +5,11 @@
 title: markaltmann
 
 # Where the page will be deployed.
-# TODO: Probably try out mark.altmann.it instead www
-url: "https://www.altmann.it"
+url: "https://mark.altmann.it"
 
 # If you're deployging to a subdirectory (https://foo.com/bar/)
 # Then write "/bar/". Otherwise, remove this line.
-baseurl: ""
-
-# Twitter IDs
-twitter:
-  username: "markaltmann"
-author:
-  twitter: "markaltmann"
+# baseurl: ""
 
 # Set default og:image
 # From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
@@ -32,7 +25,7 @@ defaults:
 #
 # See: https://material.io/guidelines/style/color.html
 # Use color-name-value, like pink-200 or deep-purple-100
-brand_color: "grey-400"
+brand_color: "blue-400"
 
 # How article URLs are structured.
 # See: https://jekyllrb.com/docs/permalinks/
@@ -68,3 +61,4 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-readme-index
+  
