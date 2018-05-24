@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "d
 locale                   : "en"
 title                    : "Altmann.IT"
 title_separator          : "-"
-name                     : "name"
+name                     : "Mark Altmann"
 description              : "Musings from the world of Privacy, InfoSec, Philosophy etc..."
 url                      : "https://mark.altmann.it" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -258,6 +258,14 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  guides:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
