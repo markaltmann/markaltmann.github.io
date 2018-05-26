@@ -5,7 +5,10 @@ author_profile: true
 permalink: /about/
 title: "About"
 ---
-
+header:
+  image: /assets/images/unsplash-image-1.jpg
+  image_description: "A description of the image"
+  
 [//]: # (Create a profile Page Layout, with a good left hand side picture)
 
 ## Mark Altmann
