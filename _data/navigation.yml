@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Posts" # Blog
+    url: /_posts/
+  - title: "Guides" # Collections
+    url: /guides/ 
+  - title: "Projects" # Collections
+    url: /projects/ 
+  - title: "Sitemap" # Sitemap
+    url: /sitemap/
+  - title: "Imprint/Privacy" # Imprint
+    url: /imprint/
