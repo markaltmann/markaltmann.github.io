@@ -1,6 +1,6 @@
 ---
 layout: splash
-author_profile: true
+# author_profile: true
 permalink: /imprint/
 title: "Impressum/Datenschutz"
 ---
@@ -34,9 +34,10 @@ Werbung oder Verlinkungen auf kommerzielle Angebote innerhalb der Kommentare, di
 
 Das Urheberrecht der Inhalte liegt bei Mark Altmann. Zusätzlich sind die Inhalte unter einer Creative-Commons-Lizenz veröffentlicht, die hier (https://creativecommons.org/licenses/by-nc-nd/3.0/de/) einsehbar ist. Wir bitten dabei besonders auf die möglicherweise unterschiedlichen Lizenzen und Urheberechte der Fotografien zu achten, die in vielen Fällen nicht bei Altmann.IT liegen. Sollten trotz allem rechtliche Fragen oder Probleme auftauchen: Wir sind erreichbar.
 
+
 <h2>Datenschutzerklärung</h2><h3 id="dsg-general-intro"></h3><p>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art. 4 der Datenschutzgrundverordnung (DSGVO).<br>
     <br>
-    </p><h3 id="dsg-general-controller">Verantwortlicher</h3><p><span class="tsmcontroller">Mark Altmann<br>
+    </p><h2 id="dsg-general-controller">Verantwortlicher</h2><p><span class="tsmcontroller">Mark Altmann<br>
     Schillerstraße 20<br>
     73084 Salach<br>
     E-Mailadresse: mark@altmann.it<br>
