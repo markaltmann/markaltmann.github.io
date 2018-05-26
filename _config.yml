@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
-search_full_content      : # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -106,7 +106,7 @@ author:
   avatar           : "/assets/images/avatar_mark.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Philosopher, Thinker, Geek, Lover, Cosmologist"
   location         : "Stuttgart, Germany"
-  email            : "mark@altmann.it"
+  email            : # better not make it available here...
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -139,6 +139,8 @@ author:
 include:
   - .htaccess
   - _pages
+  - _guides
+  - _projects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -285,12 +287,5 @@ defaults:
   - scope:
       path: ""
       type: pages
-    values:
-      layout: single
-defaults:
-  # _foo
-  - scope:
-      path: ""
-      type: foo
     values:
       layout: single
