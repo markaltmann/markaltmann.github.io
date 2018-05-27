@@ -1,25 +1,32 @@
 ---
 layout: single
 classes: wide
-author_profile: true
+author_profile: false
 permalink: /about/
-title: "About"
+title: 'About'
+feature_row:
+  - image_path: /assets/images/mark_suit1.jpg
+    alt: 'me in a suit.'
+    excerpt: '
+    <p>Hello there! My name is Mark. I am 36 years old and live near Stuttgart,  Germany.<br>
+    I consider myself a philosopher, thinker, geek, cosmologist, humanist.</p>
+    <p>Information Security is my main passion and my driver. Enabling a company to do the best for their customers. In the past i also have been doing corporate IT stuff. Also here i love to enable colleagues to achieve the best.</p>
+    <ul>
+    <li>Create agile IT environments for employees to thrive.</li>
+    <li>Recommend security and privacy requirements for systems.</li>
+    <li>Conduct PenTests.</li>
+    <li>Perform Information Security Awareness Trainings.</li>
+    <li>Leverage the Cloud for your purpose.</li>
+    </ul>
+    '
 ---
-header:
-  image: /assets/images/unsplash-image-1.jpg
-  image_description: "A description of the image"
-  
-[//]: # (Create a profile Page Layout, with a good left hand side picture)
 
-## Mark Altmann
+{% include feature_row type='left' %}
 
-Philosopher, Thinker, Geek, Cosmologist, Humanist
-
-Wer seid Ihr? Dieser Punkt erklärt sich von selbst. Wie bei jeder Vorstellung nennt man seinen Namen. Dazu kann man ein paar Hintergrundinformationen geben.
-
-Worin seit ihr gut? Das ist der Platz, um kurz zu beschreiben, worin Eure Sachkenntnis besteht.
-Welche Probleme löst Ihr? Auch wenn der Leser weiss, in was Ihr gut seid, muss er eine klare Vorstellung davon haben, welches Problem Ihr löst. Am besten die der Interessenten.
-
-Wie kann man Euch erreichen? Über welche Wege kann der potenzielle Kunde Euch kontaktieren? Standardmäßig geschieht das über E-Mail oder Telefon. Aber auch das aktuelle soziale Netzwerk bietet eine gute Möglichkeit, gerade wenn die „about me page“ sich auf diesem befindet. Ich habe selber schon Aufträge über Facebook bekommen.
-
-[//]: # (Link your profiles in there)
+Find me here:
+- [Medium](https://medium.com/@markaltmann)
+- [Keybase](https://keybase.com/markaltmann)
+- [Twitter](https://twitter.com/@markaltmann)
+- [Github](https://github.com/markaltmann)
+- [Docker](https://hub.docker.com/u/maltmann)
+- [Xing](https://xing.com/markaltmann)
