@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-author_profile: false
+author_profile: true
 permalink: /about/
 title: 'About'
 feature_row:
@@ -18,15 +18,8 @@ feature_row:
     <li>Perform Information Security Awareness Trainings.</li>
     <li>Leverage the Cloud for your purpose.</li>
     </ul>
+    <p>Contact me best via mail or the other networks seen in my profile on the left.</p>
     '
 ---
 
 {% include feature_row type='left' %}
-
-Find me here:
-- [Medium](https://medium.com/@markaltmann)
-- [Keybase](https://keybase.com/markaltmann)
-- [Twitter](https://twitter.com/@markaltmann)
-- [Github](https://github.com/markaltmann)
-- [Docker](https://hub.docker.com/u/maltmann)
-- [Xing](https://xing.com/markaltmann)

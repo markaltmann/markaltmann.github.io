@@ -104,9 +104,9 @@ analytics:
 author:
   name             : "Mark Altmann"
   avatar           : "/assets/images/avatar_mark.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Philosopher, Thinker, Geek, Lover, Cosmologist"
+  bio              : "Philosopher, Thinker, Geek, Cosmologist"
   location         : "Stuttgart, Germany"
-  email            : # better not make it available here...
+  email            : "mark@altmann.it" # better not make it available here...
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
