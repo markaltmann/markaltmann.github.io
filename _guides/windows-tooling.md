@@ -1,8 +1,8 @@
 ---
 layout: single
 author_profile: true
-title: "GContacts CardDAV Check"
-excerpt: "Windows Phones are not properly synching with Google Contacts. The reason is the avatar picture size."
+title: "Windows Tooling"
+excerpt: "Windows 10 is a solid operating system. However, with some (many) tools it can really shine."
 # header:
 #  image: /assets/images/unsplash-gallery-image-1.jpg
 #  teaser: assets/images/unsplash-gallery-image-1-th.jpg
