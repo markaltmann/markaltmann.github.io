@@ -1,0 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+# Set the text color to something eyefriendly: http://uxmovement.com/content/why-you-should-never-use-pure-black-for-text-or-backgrounds/
+$text-color: #444444;
+
+# Standard Import
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
