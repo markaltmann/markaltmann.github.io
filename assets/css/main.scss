@@ -5,7 +5,7 @@
 @charset "utf-8";
 
 # Set the text color to something eyefriendly: http://uxmovement.com/content/why-you-should-never-use-pure-black-for-text-or-backgrounds/
-$text-color: #444444;
+$text-color: #A9A9A9;
 
 # Standard Import
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
