@@ -1,8 +1,8 @@
 ---
 layout: single
 author_profile: true
-title: "GContacts CardDAV Check"
-excerpt: "Windows Phones are not properly synching with Google Contacts. The reason is the avatar picture size."
+title: "macOS Tooling"
+excerpt: "macOS is a fantastic operating system out of the box. But with some tools, it really shines..."
 # header:
 #  image: /assets/images/unsplash-gallery-image-1.jpg
 #  teaser: assets/images/unsplash-gallery-image-1-th.jpg
