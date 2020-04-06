@@ -2,11 +2,11 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Posts" # Blog
-    url: /_posts/
-  - title: "Guides" # Collections
+  - title: "Blog"
+    url: /posts/
+  - title: "Guides" # Collection
     url: /guides/ 
-  - title: "Projects" # Collections
+  - title: "Projects" # Collection
     url: /projects/ 
   - title: "Sitemap" # Sitemap
     url: /sitemap/
