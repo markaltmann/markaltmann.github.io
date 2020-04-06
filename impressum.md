@@ -10,8 +10,8 @@ toc_icon: "cog"
 ## Anbieter
 
 Mark Altmann  
-Schillerstraße 20  
-73084 Salach  
+Marbacher Straße 1  
+70435 Stuttgart  
 
 mark [ett] altmann [punkt] it
 
