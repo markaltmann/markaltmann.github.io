@@ -108,12 +108,12 @@ Feeling uneasy about who could access your files (pictures, documents)? Microsof
 In the current situation a subpoena is enough to access your data, without your consent or approval. Even the latest Privacy Shield (US-EU data exchange regulation) does not protect you properly. Hence, I am concerned, too. Basically you have 3 choices:
 
 1. Leave everything as it is, and accept the risk that 3rd parties could access your files.
-	- I do that with my standard photos. I use the backup function of Prime Photos. But i could just as well use my NAS.
+   - I do that with my standard photos. I use the backup function of Prime Photos. But i could just as well use my NAS.
 1. Move all your personal files to a private storage like QNAP/Synology at a safe location.
-	- I have that as well, for the big data chunks, local backup of data and photos etc..
+   - I have that as well, for the big data chunks, local backup of data and photos etc..
 1. Use your Cloud Storage (OneDrive, Google Drive etc.), but do encrypt them with a tool like [**Cryptomator**](https://cryptomator.org)
-	- That's what i personally did, and can really recommend to most people.
-	- I use it for confidential data, like contracts, doctor stuff and personal memories.
+   - That's what i personally did, and can really recommend to most people.
+   - I use it for confidential data, like contracts, doctor stuff and personal memories.
 
 ---
 
