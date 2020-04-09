@@ -27,4 +27,5 @@ gem 'github-pages', group: :jekyll_plugins
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
 	gem 'jekyll-include-cache'
+	#gem 'jekyll-admin'
 end
