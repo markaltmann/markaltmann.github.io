@@ -18,7 +18,7 @@ tags:
 ---
 ## Digital Life
 
-<figure style="width: 400px" class="align-left">
+<figure style="width: 500px" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/digital_life.jpg" alt="">
   <figcaption>Paul Reynolds, CC-BY-SA-2.0, <a href="https://www.flickr.com/photos/sirexkat/1686705977">https://www.flickr.com/photos/sirexkat/1686705977</a></figcaption>
 </figure>
@@ -69,7 +69,7 @@ Addendum (September 23rd, 2017)
 
 ## Delete Facebook
 
-<figure style="width: 400px" class="align-left">
+<figure style="width: 500px" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/delete_facebook.jpg" alt="">
   <figcaption>Stephen Edgar, CC-BY-SA-2.0, <a href="https://www.flickr.com/photos/netweb/4656088682">https://www.flickr.com/photos/netweb/4656088682</a></figcaption>
 </figure>
@@ -83,13 +83,13 @@ I am retaining some social network connections on Twitter which is more like a b
 When you are ready, download a backup, detach your apps and so on. If you like, you can use a guide from the internet, for example: **<https://deletefacebook.com/>**
 
 > And remember, where you have a concentration of power in a few hands, all too frequently men with the mentality of gangsters get control. History has proven that. All power corrupts; absolute power corrupts absolutely.  
-> <cite>- Sir John Dalberg-Acton</cite>
+> <cite>Sir John Dalberg-Acton</cite>
 
 Well done!
 
 ## Delete WhatsApp
 
-<figure style="width: 400px" class="align-left">
+<figure style="width: 500px" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/delete_whatsapp.jpg" alt="">
   <figcaption>CC-BY-SA-2.0</figcaption>
 </figure>
