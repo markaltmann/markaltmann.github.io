@@ -1,20 +1,31 @@
 ---
-title: "Facebook and WhatsApp: Take back control of your digital life and stay safe"
-excerpt: "Data is the new oil. Opinions can be swayed on a massive scale. What you can do?"
-layout: single
-classes: wide
-author_profile: true
-read_time: true
-share: true
-related: true
-toc: true
-toc_label: "table of contents"
-toc_icon: "cog"
-categories:
-  - Blog
-tags:
-  - privacy
-  - facebook
+# optional alternate title to replace page.title at the top of the page
+alt_title: "Basically Basic"
+
+# optional sub-title below the page title
+sub_title: "The name says it all"
+
+# optional intro text below titles, Markdown allowed
+introduction: |
+    Basically Basic is a Jekyll theme meant to be a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found in Minima are fully supported by **Basically Basic**.
+
+# optional call to action links
+actions:
+  - label: "Learn More"
+    icon: github  # references name of svg icon, see full list below
+    url: "http://url-goes-here.com"
+  - label: "Download"
+    icon: download  # references name of svg icon, see full list below
+    url: "http://url-goes-here.com"
+
+image:  # URL to a hero image associated with the post (e.g., /assets/page-pic.jpg)
+
+# post specific author data if different from what is set in _config.yml 
+author:
+  name: John Doe
+  twitter: johndoetwitter
+
+comments: false  # disable comments on this post
 ---
 
 ## Template

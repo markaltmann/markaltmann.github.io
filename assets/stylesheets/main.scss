@@ -7,6 +7,11 @@
 // Set the text color to something eyefriendly: http://uxmovement.com/content/why-you-should-never-use-pure-black-for-text-or-backgrounds/
 $text-color: #444444;
 
-// Standard Import
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+// Set everything to central
+
+// Widen the max width content="width=device-width
+
+// Theme skin
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+
+@import "basically-basic";

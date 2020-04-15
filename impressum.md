@@ -1,6 +1,6 @@
 ---
-title: Impressum/Datenschutz
-layout: single
+title: Impressum
+layout: page
 permalink: "/imprint/"
 toc: true
 toc_label: Inhaltsangabe

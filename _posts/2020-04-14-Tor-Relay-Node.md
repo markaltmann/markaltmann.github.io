@@ -1,7 +1,7 @@
 ---
 title: "Tor Relay Node"
 excerpt: "Setting up a Tor Relay server"
-layout: single
+layout: post
 author_profile: true
 read_time: true
 share: true

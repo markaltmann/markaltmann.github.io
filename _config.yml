@@ -1,181 +1,46 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
 #
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 
-remote_theme             : "mmistakes/minimal-mistakes@4.19.1"
-minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
-locale                   : "en"
-title                    : "Altmann.IT"
-title_separator          : "-"
-name                     : "Mark Altmann"
-description              : "Musings from the world of Privacy, InfoSec, Philosophy etc..."
-url                      : "https://mark.altmann.it" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "markaltmann/markaltmann.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/thailandbeach.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : #true # true, false (default)
-words_per_minute         : 200
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-reCaptcha:
-  siteKey                :
-  secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
-search_full_content      : true, false (default)
-search_provider          : lunr # lunr (default), algolia, google
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
-
-# Social Sharing
-twitter:
-  username               : "markaltmann"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : "Person" # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://twitter.com/@markaltmann"
-    - "https://www.linkedin.com/in/mark-altmann-134865199"
-
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
-
-# Site Author
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+lang: en
+title: Altmann.IT
+email: mark@altmann.it
+description: "Musings from the world of Privacy, InfoSec, Philosophy etc..."
+baseurl: # the optional subpath of your site, e.g. "/blog"
+url: "https://mark.altmann.it" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name             : "Mark Altmann"
-  avatar           : "/assets/images/avatar_mark.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Philosopher, Thinker, Nerd, Cosmologist"
-  location         : "Stuttgart, Germany"
-  email            : "mark@altmann.it" # better not make it available here...
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  dockerhub        : "maltmann"
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "markaltmann"
-  gitlab           :
-  google_plus      :
-  keybase          : "markaltmann"
-  instagram        :
-  lastfm           :
-  linkedin         : "mark-altmann-134865199" # (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          : "markaltmann"
-  vine             :
-  weibo            :
-  xing             : "markaltmann"
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
-
-# Reading Files
-include:
-  - _pages
-#  - _guides
-#  - _projects
-exclude:
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
+  name: Mark Altmann
+  twitter: https://twitter.com/@markaltmann
+  picture: /assets/images/avatar_mark.jpg
+twitter_username: "markaltmann"
+github_username: "markaltmann"
+logo: "/assets/images/company_logo_100x100.png" # path of site logo, e.g. "/assets/images/logo.png"
+search: true # true, false (default)
+search_full_content: false # true, false (default)
+search_provider: # lunr (default), algolia
+#algolia:
+#  application_id: # YOUR_APPLICATION_ID
+#  index_name: # YOUR_INDEX_NAME
+#  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+#  powered_by: # true (default), false
 
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -188,110 +53,78 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /blog/page:num
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
-# Plugins (previously gems:)
-plugins:
-  #- jekyll-paginate ## No need, if you have a index.md
-  - jekyll-sitemap
-  - jekyll-gist
+# theme: jekyll-theme-basically-basic
+plugins: # previsously gems
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-remote-theme
   - jemoji
   - jekyll-include-cache 
 
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
+# Feed Settings
+feed:
+  path: atom.xml
 
-  
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 7
+paginate_path: /page:num/
 
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# Exclude from processing.
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - /docs # ignore Basically Basic sample site
+  - /example # ignore Basically Basic dev site
 
 # Collections
 collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
   guides:
     output: true
     permalink: /:collection/:path/
 
-# Defaults
+# Front Matter Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
-      layout: single
-      author_profile: true
+      layout: post
       read_time: true
-      comments: # true
-      share: true
-      related: true
-defaults:
   # _pages
   - scope:
-      path: ""
-      type: pages
+      path: "_guides"
+      type: guides
     values:
-      layout: single
+      layout: post
+      read_time: true
       author_profile: true
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/@markaltmann"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/markaltmann"

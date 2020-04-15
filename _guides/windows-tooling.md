@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 author_profile: true
 title: "Windows Tooling"
 excerpt: "Windows 10 is a solid operating system. However, with some (many) tools it can really shine."

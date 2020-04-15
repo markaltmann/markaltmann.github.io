@@ -1,7 +1,7 @@
 ---
 title: "Portfolio Rebalancing"
 excerpt: "Cash Flow Rebalancing of your Portfolio with Google Spreadsheets"
-layout: single
+layout: post
 author_profile: true
 read_time: true
 share: true

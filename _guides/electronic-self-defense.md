@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 author_profile: true
 title: "Electronic Self Defense"
 excerpt: "How to stay safe on the internet."

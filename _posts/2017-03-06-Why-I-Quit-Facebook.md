@@ -1,8 +1,7 @@
 ---
 title: "Facebook and WhatsApp: Take back control of your digital life and stay safe"
 excerpt: "Data is the new oil. Opinions can be swayed on a massive scale. What you can do?"
-layout: single
-classes: wide
+layout: post
 author_profile: true
 read_time: true
 share: true

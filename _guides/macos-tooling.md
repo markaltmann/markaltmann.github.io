@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 author_profile: true
 title: "macOS Tooling"
 excerpt: "macOS is a fantastic operating system out of the box. But with some tools, it really shines..."
