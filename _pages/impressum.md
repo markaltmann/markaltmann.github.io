@@ -1,17 +1,17 @@
 ---
+title: Impressum/Datenschutz
 layout: single
-# author_profile: true
-permalink: /imprint/
-title: "Impressum/Datenschutz"
+permalink: "/imprint/"
 toc: true
-toc_label: "Inhaltsangabe"
-toc_icon: "cog"
+toc_label: Inhaltsangabe
+toc_icon: cog
 ---
+
 ## Anbieter
 
 Mark Altmann  
-Schillerstraße 20  
-73084 Salach  
+Marbacher Straße 1  
+70435 Stuttgart  
 
 mark [ett] altmann [punkt] it
 
@@ -23,7 +23,7 @@ Die Seiten von Altmann.IT wird auf Github Pages gehostet. Eine einfach und schne
 
 ## Haftungsausschluss
 
-Verantwortlich für die Artikel-Inhalte Mark Altmann. Mark übernimmt keine Verantwortung oder Haftung für die Inhalte externer Websites. Es wird keine Werbung geschaltet.
+Verantwortlich für die Artikel Inhalte Mark Altmann. Mark übernimmt keine Verantwortung oder Haftung für die Inhalte externer Websites. Es wird keine Werbung geschaltet.
 
 ## Nutzung der Kommentarfunktion
 
@@ -42,10 +42,10 @@ Das Urheberrecht der Inhalte liegt bei Mark Altmann. Zusätzlich sind die Inhalt
 
 <h3 id="dsg-general-controller">Verantwortlicher</h3>
 <p><span class="tsmcontroller">Mark Altmann<br>
-Schillerstraße 20<br>
-73084 Salach<br>
-E-Mailadresse: mark@altmann.it<br>
-Link zum Impressum: https://mark.altmann.it/impressum</span></p>
+Marbacher Straße 1<br>
+70435 Stuttgart<br>
+E-Mailadresse: <a href="mailto:mark@altmann.it">mark@altmann.it</a><br>
+Link zum Impressum: <a href="https://mark.altmann.it/imprint">https://mark.altmann.it/imprint</a></span></p>
 <h3 id="dsg-general-datatype">Arten der verarbeiteten Daten:</h3><p>-	Bestandsdaten (z.B., Namen, Adressen).<br>
 -	Kontaktdaten (z.B., E-Mail, Telefonnummern).<br>
 -	Inhaltsdaten (z.B., Texteingaben, Fotografien, Videos).<br>

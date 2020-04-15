@@ -7,7 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/thailandbeach.jpg
-excerpt: "InfoSec, Privacy, Cloud Computing, CorpIT, macOS and more..."
+excerpt: "InfoSec, Privacy, Cloud Computing, CorpIT, DevOps, ChromeOS and more..."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin.'
 feature_row:
@@ -17,7 +17,7 @@ feature_row:
     excerpt: ""
   - image_path: /assets/images/saintmariesurmer.jpg
     alt: "Saint Marie sur Mer"
-    title: "Corporate IT"
+    title: "Privacy"
     excerpt: ""
   - image_path: /assets/images/cliffsofmoher.jpg
     alt: "Cliffs of Moher"
