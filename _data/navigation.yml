@@ -5,9 +5,7 @@ main:
   - title: "Blog" # Blog built by pagination
     url: /blog/
   - title: "Guides" # Collection
-    url: /guides/ 
-  - title: "Sitemap" # Sitemap
-    url: /sitemap/
+    url: /guides/
   - title: "Tags"
     url: /tags/
   - title: "Imprint/Privacy" # Imprint
