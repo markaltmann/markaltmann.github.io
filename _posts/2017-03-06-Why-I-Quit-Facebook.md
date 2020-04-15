@@ -15,6 +15,7 @@ categories:
 tags:
   - privacy
   - facebook
+classes: wide
 ---
 ## Digital Life
 
