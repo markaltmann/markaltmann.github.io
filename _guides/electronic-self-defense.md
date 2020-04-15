@@ -2,7 +2,7 @@
 layout: single
 author_profile: true
 title: "Electronic Self Defense"
-excerpt: "How to stay safe in the internet."
+excerpt: "How to stay safe on the internet."
 # header:
 #  image: /assets/images/unsplash-gallery-image-1.jpg
 #  teaser: assets/images/unsplash-gallery-image-1-th.jpg
@@ -15,3 +15,9 @@ toc_label: "Table of Contents"
 toc_icon: "cog"
 # Last Update to be entered as well.
 ---
+
+## Threat Modeling 101
+
+As you want to safeguard yourself on the internet, the first question you should ask yourself is:
+
+	What do i want to protect?

@@ -2,11 +2,13 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Posts" # Blog
-    url: /_posts/
-  - title: "Guides" # Collections
+  - title: "Blog" # Blog built by pagination
+    url: /blog/
+  - title: "Guides" # Collection
     url: /guides/ 
   - title: "Sitemap" # Sitemap
     url: /sitemap/
+  - title: "Tags"
+    url: /tags/
   - title: "Imprint/Privacy" # Imprint
     url: /imprint/

@@ -1,3 +1,24 @@
+---
+title: "Facebook and WhatsApp: Take back control of your digital life and stay safe"
+excerpt: "Data is the new oil. Opinions can be swayed on a massive scale. What you can do?"
+layout: single
+classes: wide
+author_profile: true
+read_time: true
+share: true
+related: true
+toc: true
+toc_label: "table of contents"
+toc_icon: "cog"
+categories:
+  - Blog
+tags:
+  - privacy
+  - facebook
+---
+
+## Template
+
 Die goldenen Regeln für Texte im Internet
 
 Zentrale Botschaft zu Beginn
