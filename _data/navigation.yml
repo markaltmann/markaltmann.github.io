@@ -6,8 +6,6 @@ main:
     url: /_posts/
   - title: "Guides" # Collections
     url: /guides/ 
-  - title: "Projects" # Collections
-    url: /projects/ 
   - title: "Sitemap" # Sitemap
     url: /sitemap/
   - title: "Imprint/Privacy" # Imprint
