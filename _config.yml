@@ -31,11 +31,6 @@ comments:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -68,7 +63,8 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-# SEO Related
+
+  # SEO Related
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
@@ -77,11 +73,7 @@ naver_site_verification  :
 # Social Sharing
 twitter:
   username               : "markaltmann"
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "assets/images/company_logo_200x200.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -90,14 +82,6 @@ social:
   links: # An array of links to social media profiles
     - "https://twitter.com/@markaltmann"
     - "https://www.linkedin.com/in/mark-altmann-134865199"
-
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
 
 # Site Author
 author:
@@ -108,31 +92,34 @@ author:
   email            : "mark@altmann.it" # better not make it available here...
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
   dockerhub        : "maltmann"
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "markaltmann"
-  gitlab           :
-  google_plus      :
   keybase          : "markaltmann"
-  instagram        :
-  lastfm           :
   linkedin         : "mark-altmann-134865199" # (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
   twitter          : "markaltmann"
-  vine             :
-  weibo            :
   xing             : "markaltmann"
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
+  # links:
+  #   - label: "Email"
+  #     icon: "fas fa-fw fa-envelope-square"
+  #     # url: mailto:your.name@email.com
+  #   - label: "Website"
+  #     icon: "fas fa-fw fa-link"
+  #     # url: "https://your-website.com"
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     # url: "https://twitter.com/"
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook-square"
+  #     # url: "https://facebook.com/"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     # url: "https://github.com/"
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     # url: "https://instagram.com/"
 
 # Reading Files
 include:
@@ -160,13 +147,10 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -174,7 +158,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -204,7 +187,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  #- jekyll-paginate ## No need, if you have a index.md
+  - jekyll-paginate ## No need, if you have a index.md
   - jekyll-gist
   - jekyll-feed
   - jemoji
@@ -275,6 +258,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
