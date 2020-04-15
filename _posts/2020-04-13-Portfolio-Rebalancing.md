@@ -6,14 +6,15 @@ author_profile: true
 read_time: true
 share: true
 related: true
-toc: true
-#toc_label: "table of contents"
-toc_icon: "cog"
+# toc: true
+# toc_label: "table of contents"
+# toc_icon: "cog"
 categories:
   - Blog
 tags:
   - finance
   - portfolio
+classes: wide
 ---
 ## Portfolio Rebalancing
 
