@@ -18,11 +18,12 @@ classes: wide
 ---
 ## Portfolio Rebalancing
 
-When you have your asset portfolio in your brokerage depot, you will probably want to rebalance your portfolio once in a while. The motivation is to uphold your risk distribution in your portfolio and follow anti-cyclical investment decisions.
+When you have your asset portfolio in your brokerage depot, you would probably want to rebalance your portfolio once in a while. The motivation behind that is to uphold your risk distribution in your portfolio and follow anti-cyclical investment decisions.  
+The rationale is that growth equals out over long terms.
 
-There is a good general overview on Portfolio Rebalancing on [justetf.com](https://www.justetf.com/de-en/academy/what-is-portfolio-rebalancing.html).
+As a good general overview on Portfolio Rebalancing on [justetf.com](https://www.justetf.com/de-en/academy/what-is-portfolio-rebalancing.html).
 
-Many brokerage companies do offer either automatic rebalancing or giving you that as a feature. Couldn't be so hard, i thought myself and created a Google Spreadsheet...
+Many brokers do offer portfolio rebalancing, however that usually comes at a price. Couldn't be so hard, i thought myself and created a Google Spreadsheet...
 
 ### Rebalancing Approaches
 
@@ -31,7 +32,7 @@ There are 2 well known approaches to portfolio rebalancing:
 1. Classic Rebalancing
 2. Cash Flow Rebalancing
 
-The main difference is, that you only buy, and not sell any asset position in the cash flow approach. Check out the following picture for details:
+The main difference is, that you only buy and not sell any assets in the cash flow approach. The classic rebalancing approach works with selling/buying at the same time to reach the target distribution. Check out the following picture for explanation:
 
 ![Portfolio Rebalancing](/assets/images/cash-flow-rebalancing-en.jpg){:class="img-responsive"}
 
@@ -41,7 +42,7 @@ The first thing we need is a kind of export of your portfolio with all the neces
 
 ![Portfolio Import](/assets/images/portfolio_import.png){:class="img-responsive"}
 
-See the following spreadsheet as a template: <https://docs.google.com/spreadsheets/d/1Lc1U3VXlsYPMxnCoAKxJSRJ92Z6olWBUA3U1ve67kxA/edit?usp=sharing>
+Use the following spreadsheet as a template: <https://docs.google.com/spreadsheets/d/1Lc1U3VXlsYPMxnCoAKxJSRJ92Z6olWBUA3U1ve67kxA/edit?usp=sharing>
 
 The usage is pretty simple:
 
