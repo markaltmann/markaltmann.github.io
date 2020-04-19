@@ -1,20 +1,18 @@
 ---
 title: "Portfolio Rebalancing"
 excerpt: "Cash Flow Rebalancing of your Portfolio with Google Spreadsheets"
+header:
+  overlay_image: assets/images/looking-glass.jpg
+  caption: "Photo credit: Mark Altmann"
 layout: single
-author_profile: true
-read_time: true
-share: true
-related: true
 # toc: true
 # toc_label: "table of contents"
 # toc_icon: "cog"
 categories:
-  - Blog
+  - Finance
 tags:
-  - finance
+  - rebalancing
   - portfolio
-classes: wide
 ---
 ## Portfolio Rebalancing
 

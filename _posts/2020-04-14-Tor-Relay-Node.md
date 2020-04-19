@@ -1,20 +1,18 @@
 ---
-title: "Tor Relay Node"
-excerpt: "Setting up a Tor Relay server"
+title: "Supporting the Tor network with a relay node"
+excerpt: "Setup of a Tor relay server"
+header:
+  overlay_image: assets/images/tree-sky.jpg
+  caption: "Photo credit: Mark Altmann"
 layout: single
-author_profile: true
-read_time: true
-share: true
-related: true
 # toc: true
 # toc_label: "table of contents"
 # toc_icon: "cog"
 categories:
-  - Blog
+  - IT
 tags:
   - privacy
   - tor
-classes: wide
 ---
 ## What is Tor and a Relay server?
 
@@ -37,16 +35,18 @@ Even better, the website provides a simple script, which performs all the steps 
 
 In case you are interested, these are the important fields we need:
 
-    SocksPort 9050
-    RunAsDaemon 1
-    ORPort 9001
-    Nickname YOURNICKNAME
-    ContactInfo *mail address or even empty*
-    DirPort 9030
-    ExitPolicy reject *:*
-    DisableDebuggerAttachment 0
-    ControlPort 9051
-    CookieAuthentication 1
+```config
+SocksPort 9050
+RunAsDaemon 1
+ORPort 9001
+Nickname YOURNICKNAME
+ContactInfo *mail address or even empty*
+DirPort 9030
+ExitPolicy reject *:*
+DisableDebuggerAttachment 0
+ControlPort 9051
+CookieAuthentication 1
+```
 
 ### Installation
 
@@ -65,7 +65,7 @@ deb-src https://deb.torproject.org/torproject.org stretch main
 
 Then add the gpg key used to sign the packages by running the following commands at your command prompt:
 
-```console
+```terminal
 curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --import
 gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 ```
@@ -73,7 +73,7 @@ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 The Tor project provides a Debian package to help you keep our signing key current. It is recommended you use it. Additionally, we are installing arm/nyx, which is a monitoring tool for tor.
 Install it with the following commands:
 
-```console
+```terminal
 apt update
 # Debian 9 (stretch)
 apt install tor arm deb.torproject.org-keyring
@@ -89,7 +89,7 @@ After you have installed Tor and configured your torrc file, you can check on th
 
 It should come up normally:
 
-```console
+```terminal
 sudo service tor status
 ```
 
@@ -97,7 +97,7 @@ sudo service tor status
 
 If you are not sure whether the service already uses your latest config file, you can simply restart the service:
 
-```console
+```terminal
 sudo service tor restart
 ```
 
@@ -106,14 +106,14 @@ sudo service tor restart
 Perfect! You have now everything set up and should work like a charm. However there are updates coming out regularly of the operating system or tor itself. Hence you should regularly update.  
 The easiest approach is to use a cronjob there. Here's how you do it:
 
-```console
+```terminal
 sudo crontab -e
 ```
 
-That opens the cron in an editor. We are updating the system everyday in regards to packages, which includes tor. And once a month, we are restarting the tor service, so that we actually use updated packages for tor.
-Add the following lines to achieve that:
+That opens crontab in an editor. We will update the system everyday at midnight in regards to packages, which includes the tor package. And once a month, we are restarting the tor service, so that we actually use updated packages for tor.  
+Add the following lines in crontab to achieve that:
 
-```console
+```terminal
 0 0 * * 0 root (apt update && apt upgrade -d -y) > /dev/null
 0 3 1 * * root (service tor restart) > /dev/null
 ```
@@ -122,7 +122,7 @@ Add the following lines to achieve that:
 
 With the very nice tool ARM, you can now connect to your local Tor Server and see some statistics:
 
-```console
+```terminal
 # Debian 9 (Stretch)
 sudo -u debian-tor arm
 # Debian 10 (Buster)
