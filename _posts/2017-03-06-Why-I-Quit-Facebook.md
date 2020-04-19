@@ -1,21 +1,19 @@
 ---
 title: "Facebook and WhatsApp: Take back control of your digital life and stay safe"
-excerpt: "Data is the new oil. Opinions can be swayed on a massive scale. What you can do?"
+excerpt: "Data is the new oil. Opinions can be swayed on a massively. What can you do?"
+header:
+  overlay_image: assets/images/turm.jpg
+  caption: "Photo credit: Mark Altmann"
 layout: single
-classes: wide
-author_profile: true
-read_time: true
-share: true
-related: true
 toc: true
 toc_label: "table of contents"
 toc_icon: "cog"
 categories:
-  - Blog
+  - IT
 tags:
   - privacy
   - facebook
-classes: wide
+  - whatsapp
 ---
 ## Digital Life
 
@@ -107,11 +105,11 @@ Hence it's important to get as many peers on those alternative networks. If you 
 
 Recommendations:
 
-- [Signal](https://whispersystems.org): OpenSource, Free, Security Audited, Android, iOS, Chrome App, Chat, Video, Decent Crypto
-- [Wire Messenger](https://wire.com): Closed Source, Free, Security Audited, Android, iOS, Chat, Video, Good Crypto
-- [Telegram](https://www.telegram.org): Closed Source MProto Protocol, Security Audited, Android, iOS, Windows Phone, native Desktop Apps, optional end-to-end encryption, Good Crypto
-- [Threema](https://threema.ch): Closed Source, Costs 2,99 €, Android, iOS, Windows Phone
-- [Wickr](https://wickr.com): Photo, Video, Voice Messages, Share Files, Decent Crypto
+- **[Signal](https://whispersystems.org)**: OpenSource, Free, Security Audited, Android, iOS, Chrome App, Chat, Video, Decent Crypto
+- **[Wire Messenger](https://wire.com)**: Closed Source, Free, Security Audited, Android, iOS, Chat, Video, Good Crypto
+- **[Telegram](https://www.telegram.org)**: Closed Source MProto Protocol, Security Audited, Android, iOS, Windows Phone, native Desktop Apps, optional end-to-end encryption, Good Crypto
+- **[Threema](https://threema.ch)**: Closed Source, Costs 2,99 €, Android, iOS, Windows Phone
+- **[Wickr](https://wickr.com)**: Photo, Video, Voice Messages, Share Files, Decent Crypto
 
 Sources:
 
