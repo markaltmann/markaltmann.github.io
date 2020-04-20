@@ -17,7 +17,7 @@ tags:
 ---
 ## Digital Life
 
-<figure style="width: 500px" class="align-left">
+<figure style="width: 60%" class="img-responsive" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/digital_life.jpg" alt="">
   <figcaption>Paul Reynolds, CC-BY-SA-2.0, <a href="https://www.flickr.com/photos/sirexkat/1686705977">https://www.flickr.com/photos/sirexkat/1686705977</a></figcaption>
 </figure>
@@ -68,7 +68,7 @@ Addendum (September 23rd, 2017)
 
 ## Delete Facebook
 
-<figure style="width: 500px" class="align-left">
+<figure style="width: 60%" class="img-responsive" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/delete_facebook.jpg" alt="">
   <figcaption>Stephen Edgar, CC-BY-SA-2.0, <a href="https://www.flickr.com/photos/netweb/4656088682">https://www.flickr.com/photos/netweb/4656088682</a></figcaption>
 </figure>
@@ -88,7 +88,7 @@ Well done!
 
 ## Delete WhatsApp
 
-<figure style="width: 500px" class="align-left">
+<figure style="width: 60%" class="img-responsive" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/delete_whatsapp.jpg" alt="">
   <figcaption>CC-BY-SA-2.0</figcaption>
 </figure>
@@ -135,8 +135,8 @@ If you want to go the extra mile (as i did), you can change your mail provider t
 
 Recommendations:
 
-- <https://posteo.de>
 - <https://mailbox.org>
+- <https://posteo.de>
 - <https://hushmail.com>
 - <https://lavabit.com>
 - <https://protonmail.ch>
@@ -145,15 +145,16 @@ Generally, the most important point is that your privacy should be at the core D
 
 ## Encrypt your personal files
 
-Feeling uneasy about who could access your files (pictures, documents)? Microsoft(OneDrive), Google(GDrive) and Apple(iCloud) are U.S. companies and are not really encrypting your data end-to-end. Meaning, they could, if need be, decrypt and hand out the data to authorities.
+Feeling uneasy about who could access your files like children pictures, important tax documents or a health diagnosis?  
+Microsoft(**OneDrive**), Google(**GDrive**) and Apple(**iCloud**) are U.S. companies and are not really encrypting your data end-to-end. Meaning, they could, if need be, decrypt and hand out the data to authorities or use it for their own purposes.
 
-In the current situation a subpoena is enough to access your data, without your consent or approval. Even the latest Privacy Shield (US-EU data exchange regulation) does not protect you properly. You could do one of those 3 things:
+In the current situation a subpoena is enough to access your data, without your consent or approval. Even the latest Privacy Shield (US-EU data exchange) regulation does not protect you properly. Hence you can do these 3 things (not necessarily exclusively):
 
-1. Leave everything as it is, and accept the risk that 3rd parties could access your files.
+1. *Leave everything as it is*, and accept the risk that 3rd parties could access your files.
    - I do that with my standard photos. I use the backup function of Prime Photos. But i could just as well use my NAS.
-1. Move all your personal files to a private storage like QNAP/Synology at a safe location.
+2. *Move all your personal files to a private storage*, like a QNAP/Synology at a safe location.
    - I have that as well, for the big data chunks, local backup of data and photos etc..
-1. Use your Cloud Storage (OneDrive, Google Drive etc.), but do encrypt them with a tool like [**Cryptomator**](https://cryptomator.org)
+3. Use your Cloud Storage (OneDrive, Google Drive etc.), *__but__ do encrypt them* with a tool like [**Cryptomator**](https://cryptomator.org)
    - That's what i personally did, and can really recommend to most people.
    - I use it for confidential data, like contracts, doctor stuff and personal memories.
 
