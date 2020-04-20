@@ -41,7 +41,8 @@ That's why we have a quick look at PiHole and a small device, called a Raspberry
 
 Learn more about a raspberry pi: <https://www.raspberrypi.org/>
 
-It's really small and versatile: ![Raspberry Pi 3](http://makezine.com/wp-content/uploads/2016/02/Raspberry-Pi-3-small.gif){:class="img-responsive"}
+It's really small and versatile:  
+![Raspberry Pi 3](http://makezine.com/wp-content/uploads/2016/02/Raspberry-Pi-3-small.gif){:class="img-responsive"}
 
 ### Installation
 
