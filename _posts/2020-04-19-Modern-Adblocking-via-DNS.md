@@ -25,7 +25,7 @@ Below we will look at a core technology in the internet: **D**omain **N**ame **S
 
 ## How does DNS work
 
-Instead of explaing DNS myself, have a look at this simple scollable explanation: <https://www.verisign.com/en_US/website-presence/online/how-dns-works/index.xhtml>
+Instead of explaining DNS myself, have a look at this simple scrollable explanation: <https://www.verisign.com/en_US/website-presence/online/how-dns-works/index.xhtml>
 
 Or in one simple image:
 
@@ -79,9 +79,9 @@ Using the PiHole is a very smooth and just working solution. You just have one c
 No safeguards when you are on the road!
 {: .notice--warning}
 
-That's a real bummer, as you should use this technology also, when you are on the road. Running a PiHole locally, seems messy and constantly connecting to a VPN also seems impractical.
+That's a real bummer, as you should use this technology also, when you are on the road. Running a PiHole locally seems messy and constantly connecting to a VPN also seems impractical.
 
-That's where NextDNS comes into play. It's basically a PiHole-as-a-service. It can basically provides the very same services you can configure in your PiHole.
+That's where NextDNS comes into play! It's basically a PiHole-as-a-service. It can basically provide the very same service as your PiHole, on the road. For more information, you can also read this very good article: <https://medium.com/@mlapida/replacing-pi-hole-with-nextdns-faed99277997>
 
 Setting that up is also quite easy:
 
