@@ -5,7 +5,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/thailandbeach.jpg
+  overlay_image: /assets/images/thailandbeach.jpg?nf_resize=fit&w=1200
 excerpt: "InfoSec, Privacy, Cloud Computing and more..."
 # intro: 
 #   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin.'

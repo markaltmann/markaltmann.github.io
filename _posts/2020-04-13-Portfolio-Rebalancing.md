@@ -2,7 +2,7 @@
 title: "Portfolio Rebalancing"
 excerpt: "Cash Flow Rebalancing of your Portfolio with Google Spreadsheets"
 header:
-  overlay_image: assets/images/looking-glass.jpg
+  overlay_image: assets/images/looking-glass.jpg?nf_resize=fit&w=1200
   caption: "Photo credit: Mark Altmann"
 layout: single
 # toc: true

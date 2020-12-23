@@ -2,7 +2,7 @@
 title: "Supporting the Tor network with a relay node"
 excerpt: "Setup of a Tor relay server"
 header:
-  overlay_image: assets/images/tree-sky.jpg
+  overlay_image: assets/images/tree-sky.jpg?nf_resize=fit&w=1200
   caption: "Photo credit: Mark Altmann"
 layout: single
 # toc: true

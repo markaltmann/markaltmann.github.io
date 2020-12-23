@@ -2,7 +2,7 @@
 title: "Simple VPN with Wireguard"
 excerpt: "connect to your home from anywhere, simple and easy."
 header:
-  overlay_image: assets/images/looking-glass.jpg
+  overlay_image: assets/images/looking-glass.jpg?nf_resize=fit&w=1200
   caption: "Photo credit: Mark Altmann"
 layout: single
 # toc: true

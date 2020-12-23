@@ -2,7 +2,7 @@
 title: "Modern Adblocking via DNS"
 excerpt: "advertisements and tracking blocked efficiently"
 header:
-  overlay_image: assets/images/brunnen.jpg
+  overlay_image: assets/images/brunnen.jpg?nf_resize=fit&w=1200
   caption: "Photo credit: Mark Altmann"
 layout: single
 # toc: true

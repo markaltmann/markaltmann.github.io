@@ -4,7 +4,7 @@ classes: wide
 permalink: /about/
 title: 'About'
 feature_row:
-  - image_path: /assets/images/mark_suit1.jpg
+  - image_path: /assets/images/mark_suit1.jpg?nf_resize=fit&h=510
     alt: 'me in a suit.'
     excerpt: '
     <p>Hello there! My name is Mark. I am 38 years old and live in Stuttgart,  Germany.<br>

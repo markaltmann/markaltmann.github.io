@@ -2,7 +2,7 @@
 title: "Facebook and WhatsApp: Take back control of your digital life and stay safe"
 excerpt: "Data is the new oil. Opinions can be swayed on a massively. What can you do?"
 header:
-  overlay_image: assets/images/turm.jpg
+  overlay_image: assets/images/turm.jpg?nf_resize=fit&w=1200
   caption: "Photo credit: Mark Altmann"
 layout: single
 toc: true
