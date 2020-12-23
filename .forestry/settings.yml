@@ -20,7 +20,7 @@ sections:
   label: Guides
   create: all
   match: "**/*"
-upload_dir: asset/images
+upload_dir: assets
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
